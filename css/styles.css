@@ -77,7 +77,11 @@ footer {
 
 }
 
-.euip {
+.tablet {
+	display: none;
+}
+
+.equip {
 	float: left;
 	padding-right: 20px;
 }
