@@ -29,7 +29,7 @@ nav {
 	font-family: Georgia, "Times New Roman", serif;
 	font-size: 1.25em;
 	font-weight: bold;
-	font-align: center;
+	text-align: center;
 }
 nav ul {
 	padding: 0;
@@ -47,7 +47,7 @@ nav li {
 
 nav li a {
 	color: #FFFFFF;
-	text-decoration: inline;
+	text-decoration: none;
 }
 
 .mobile {
