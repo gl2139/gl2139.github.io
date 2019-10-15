@@ -1,7 +1,7 @@
 /* Style sheet created by: Estevan Vasquez 5994 */
 
 body {
-	Background-color: #FFFF99; 
+	Background-color: #1D1D1C; 
 }
 
 img {
@@ -18,11 +18,7 @@ img {
 
 
 header {
-	background-color: #FFFFFF;
-	margin-top: 0.2em;
-	border-radius: 0.5em;
 	text-align: center;
-
 }
 
 nav {
@@ -30,7 +26,9 @@ nav {
 	font-size: 1.25em;
 	font-weight: bold;
 	text-align: center;
+	margin-top: -1.5em;
 }
+
 nav ul {
 	padding: 0;
 	margin-top: 0.5em;
@@ -38,7 +36,7 @@ nav ul {
 }
 
 nav li {
-	background-color: #009933;
+	background-color: #9D9D93;
 	border-radius: 2em;
 	list-style-type: none;
 	margin: 0.3em;
@@ -65,16 +63,29 @@ main {
 	font-size: 1em;
 	margin-top: 0.5em;
 	padding: 1em;
-	border-radius: 1em;
-	border-top: solid 0.2em #009933;
-	border-bottom: solid 0.2em #009933;
+	border-radius: 2em 0 2em 0;
+	opacity: 0.85;
 }
 
+main a {
+	background-color: #9D9D93;
+	border-radius: 1em;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 0.5em;
+	text-decoration: none;
+}
+	
 footer {
 	font-size: .70em;
 	text-align: center;
 	margin-top: 2em;
+	color: #FFFFFF;
+}
 
+footer a {
+	color:#FFFFFF;
+	text-decoration: none;
 }
 
 .tablet {
@@ -85,6 +96,7 @@ footer {
 	display: none;
 }
 
+/* Tablet rules */
 @media only screen and (min-width: 660px) {
 
 	nav li {
@@ -96,11 +108,14 @@ footer {
 		padding-right: 0;
 		width: 18%;
 		white-space: nowrap;
+		border-radius: 0;
+		background-color: transparent;
 	}
 
 	main {
 		clear: left;
-		margin-top: 4em;
+		margin-top: -0.3em;
+		border-radius: 0;
 	}
 
 	.mobile {
@@ -130,6 +145,25 @@ footer {
 	dt {
 		font-weight: bold;
 		margin-top: 0.7em;
+	}
+	
+	h1 {
+		text-align: center;
+	}
+	
+	figure img {
+		background-color: #1D1D1C;
+		display: inline;
+		height: 8em;
+		width: 28%
+		margin: 1%;
+		padding: 1%;
+	}
+	
+	figure a {
+		background-color: transparent;
+		padding: 0;
+		text-decoration: none;
 	}
 }
 
