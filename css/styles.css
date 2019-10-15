@@ -260,6 +260,10 @@ footer a {
 		width: 90%;
 	}
 	
+	main h2 {
+		color: #FFFFFF;
+	}
+	
 	h1 {
 		color: #FFFFFF;
 	}
@@ -295,6 +299,10 @@ footer a {
 	
 	section p {
 		margin-left: 0;
+	}
+	
+	.contact {
+		color: #FFFFFF;
 	}
 }
 
