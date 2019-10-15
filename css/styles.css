@@ -135,11 +135,12 @@ footer a {
 	.items {
 		display: block;
 		list-style-position: inside;
-		margin-bottom: 5em;
 	}
 	
 	.tablet {
 		display: block;
+		margin-top: -3em;
+		margin-bottom: -1em;
 	}
 	
 	dt {
@@ -164,6 +165,22 @@ footer a {
 		background-color: transparent;
 		padding: 0;
 		text-decoration: none;
+	}
+	
+	section {
+		padding-bottom: 3em;
+	}
+	
+	sectin h1 {
+		text-align: left;
+	}
+	
+	section a {
+		background-color: transparent;
+		color: #1D1D1C;
+		font-weight: normal;
+		padding: 0;
+		text-decoration: underline;
 	}
 }
 
@@ -258,6 +275,20 @@ footer a {
 	
 	.items {
 		margin-bottom: 6em;
+	}
+	
+	section {
+		color: #FFFFFF;
+		margin-left: 1em;
+		padding-bottom: 5em;
+	}
+	
+	section a {
+		color: #FFFFFF;
+	}
+	
+	section p {
+		margin-left: 0;
 	}
 }
 
