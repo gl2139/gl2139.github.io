@@ -182,6 +182,12 @@ footer a {
 		padding: 0;
 		text-decoration: underline;
 	}
+	
+	.contact {
+		background-color: transparent;
+		color: #1D1D1C;
+		padding: 0;
+		text-decoration: underline;
 }
 
 /* Desktop rules*/
