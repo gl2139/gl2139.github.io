@@ -161,7 +161,7 @@ aside {
 		background-color: #1D1D1C;
 		display: inline;
 		height: 8em;
-		width: 28%
+		width: 28%;
 		margin: 1%;
 		padding: 1%;
 	}
@@ -234,7 +234,7 @@ aside {
 @media only screen and (min-width: 830px) {
 	
 	#container {
-		background-color: 1D1D1C;
+		background-color: #1D1D1C;
 	}
 	
 	header {
@@ -272,11 +272,11 @@ aside {
 		color: #FFFFFF;
 	}
 	
-	nav li a a:visted {
+	nav li a:visted {
 		color: #CCCCFF;
 	}
 	
-	nav li a:hoover {
+	nav li a:hover {
 		color: #9D9D93;
 		font-style: italic;
 	}
