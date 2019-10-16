@@ -272,7 +272,7 @@ aside {
 		color: #FFFFFF;
 	}
 	
-	nav li a:visted {
+	nav li a:visited {
 		color: #CCCCFF;
 	}
 	
@@ -310,7 +310,7 @@ aside {
 	
 	figure img {
 		height: 15em;
-		opacity: 0.7em;
+		opacity: 0.7;
 	}
 	
 	figure img:hover {
