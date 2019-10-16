@@ -96,6 +96,10 @@ footer a {
 	display: none;
 }
 
+aside {
+	font-style: italic;
+}
+
 /* Tablet rules */
 @media only screen and (min-width: 660px) {
 
@@ -116,6 +120,7 @@ footer a {
 		clear: left;
 		margin-top: -0.3em;
 		border-radius: 0;
+		overflow: auto;
 	}
 
 	.mobile {
@@ -188,6 +193,41 @@ footer a {
 		color: #1D1D1C;
 		padding: 0;
 		text-decoration: underline;
+	}
+	
+	article { 
+		background-color: #C1D9CA;
+		float: left;
+		margin: 0.5%;
+		padding: 0.5%;
+		text-align: center;
+		width: 31%;
+	}
+	
+	main article img {
+		border: solid 0.1em #1D1D1C;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	main article p {
+		color: #000000;
+		margin-top: 2%;
+		padding: 1%;
+		text-align: left;
+	}
+	
+	main article ul {
+		text-align: left;
+	}
+	
+	aside {
+		background-color: #FFFFFF;
+		border-radius: 0 5em 5em 5em;
+		box-shadow: 1em 1em 1em #4C4F4D;
+		padding: 1.5em;
+		margin: 1em;
+	}
 }
 
 /* Desktop rules*/
@@ -303,6 +343,10 @@ footer a {
 	
 	.contact {
 		color: #FFFFFF;
+	}
+	
+	main article h2 {
+		color: #000000;
 	}
 }
 
