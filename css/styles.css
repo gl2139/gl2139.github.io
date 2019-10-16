@@ -49,7 +49,7 @@ nav li a {
 }
 
 .mobile {
-	display: none;
+	display: inline;
 }
 
 .desktop {
@@ -124,7 +124,7 @@ aside {
 	}
 
 	.mobile {
-		display: inline;
+		display: none;
 	}
 
 	.desktop {
@@ -176,7 +176,7 @@ aside {
 		padding-bottom: 3em;
 	}
 	
-	sectin h1 {
+	section h1 {
 		text-align: left;
 	}
 	
