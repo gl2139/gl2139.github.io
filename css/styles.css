@@ -262,7 +262,7 @@ aside {
 		width: 20%;
 	}
 
-	nav lia a {
+	nav li a {
 		display: inline-block;
 		padding: 0.7em;
 		text-shadow: 0.2em 0.1em #3D3D35;
