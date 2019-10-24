@@ -228,6 +228,13 @@ aside {
 		padding: 1.5em;
 		margin: 1em;
 	}
+	table {
+		border: 0.1em solid #000000;
+	}
+
+
+
+
 }
 
 /* Desktop rules*/
