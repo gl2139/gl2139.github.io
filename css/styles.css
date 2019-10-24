@@ -230,11 +230,27 @@ aside {
 	}
 	table {
 		border: 0.1em solid #000000;
+		border-collapse: collapse;
+		margi-left: auto;
+		margi-right: auto;
+		width: 100%;
 	}
-
-
-
-
+	
+	th, th {
+		border: 0.1em solid #000000;
+		padding: 1em;
+	}
+	
+	th, th {
+		background-color: 0.1em solid #1D1D1C;
+		color: #FFFFFF;
+	}
+	
+	caption {
+		font-size: 1.5em;
+		font-weight: bold;
+		padding-bottom: 0.5em;
+	}
 }
 
 /* Desktop rules*/
@@ -354,6 +370,15 @@ aside {
 	
 	main article h2 {
 		color: #000000;
+	}
+	
+	table {
+		background-color: #FFFFFF;
+		width: 80%;
+	}
+	
+	caption {
+		color: #FFFFFF;
 	}
 }
 
