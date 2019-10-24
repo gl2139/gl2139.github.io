@@ -253,12 +253,12 @@ form ul {
 		width: 100%;
 	}
 	
-	th, th {
+	th, td {
 		border: 0.1em solid #000000;
 		padding: 1em;
 	}
 	
-	th, th {
+	th {
 		background-color: 0.1em solid #1D1D1C;
 		color: #FFFFFF;
 	}
