@@ -248,8 +248,8 @@ form ul {
 	table {
 		border: 0.1em solid #000000;
 		border-collapse: collapse;
-		margi-left: auto;
-		margi-right: auto;
+		margin-left: auto;
+		margin-right: auto;
 		width: 100%;
 	}
 	
@@ -271,7 +271,7 @@ form ul {
 	
 	label {
 		float: left;
-		padding-righ: 0.5em;
+		padding-right: 0.5em;
 		text-align: right;
 		width: 10em;
 	}
